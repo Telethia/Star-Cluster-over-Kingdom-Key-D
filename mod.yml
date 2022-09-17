@@ -1,0 +1,56 @@
+title: Star Cluster over Kingdom Key D
+description: Replaces Kingdom Key D with Star Cluster from Kingdom Hearts 3. Model and Texture by DA, shading help + Halloween Town version by Kayya, original KKD texture by Televo.
+assets:
+- name: msg/us/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: en
+- name: obj/W_EX010_00.mdlx
+  method: copy
+  source:
+  - name: obj/W_StarCluster_Final.mdlx
+- name: obj/W_EX010_NM_00.mdlx
+  method: copy
+  source:
+  - name: obj/W_StarCluster_Final.mdlx
+- name: obj/W_EX010_TR_00.mdlx
+  method: copy
+  source:
+  - name: obj/W_StarCluster_Final.mdlx
+- name: obj/W_EX010_WI_00.mdlx
+  method: copy
+  source:
+  - name: obj/W_StarCluster_Final.mdlx
+- name: remastered/obj/W_EX010_00.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.mdlx/-0.dds
+- name: remastered/obj/W_EX010_NM_00.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.mdlx/-1.dds
+- name: remastered/obj/W_EX010_TR_00.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.mdlx/-2.dds
+- name: remastered/obj/W_EX010_00.a.us/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.a.us/-0.dds
+- name: remastered/obj/W_EX010_NM_00.a.us/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.a.us/-0_NM.dds
+- name: remastered/obj/W_EX010_TR_00.a.us/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.a.us/-0_TR.dds
+- name: remastered/itempic/item-299.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/Star_Cluster.dds
